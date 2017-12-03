@@ -9,7 +9,9 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
   <!-- Bulma Version 0.6.0 -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.0/css/bulma.min.css" integrity="sha256-HEtF7HLJZSC3Le1HcsWbz1hDYFPZCqDhZa9QsCgVUdw=" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="./site.css">
+
 </head>
 <body>
   <section class="hero is-info is-fullheight">
@@ -17,8 +19,8 @@
       <nav class="navbar">
         <div class="container">
           <div class="navbar-brand">
-            <a class="navbar-item" href="../">
-              <img src="http://bulma.io/images/bulma-type-white.png" alt="Logo">
+            <a class="navbar-item" href="/">
+              Seedom Logo
             </a>
             <span class="navbar-burger burger" data-target="navbarMenu">
               <span></span>
@@ -28,23 +30,50 @@
           </div>
           <div id="navbarMenu" class="navbar-menu">
             <div class="navbar-end">
+              <!--
               <a class="navbar-item is-active">
                 Home
               </a>
+            -->
               <a class="navbar-item">
-                Examples
-              </a>
-              <a class="navbar-item">
-                Documentation
+                Whitepaper
               </a>
               <span class="navbar-item">
-                <a class="button is-white is-outlined is-small" href="https://github.com/dansup/bulma-templates/blob/master/templates/landing.html">
+                <a class="button is-white is-outlined is-small" href="https://github.com/seedom/seedom-solidity/blob/master/contract/seedom.sol">
                   <span class="icon">
                     <i class="fa fa-github"></i>
                   </span>
-                  <span>View Source</span>
+                  <span>View Smart Contract</span>
                 </a>
               </span>
+              <a class="navbar-item" href="https://medium.com/@seedom.io">
+                <span class="icon">
+                  <i class="fa fa-lg fa-medium"></i>
+                </span>
+              </a>
+              <a class="navbar-item" href="http://reddit.com/r/seedom">
+                <span class="icon">
+                  <i class="fa fa-lg fa-reddit"></i>
+                </span>
+              </a>
+              <a class="navbar-item" href="https://www.facebook.com/seedom.io">
+                <span class="icon">
+                  <i class="fa fa-lg fa-facebook"></i>
+                </span>
+              </a>
+
+              <a class="navbar-item" href="https://twitter.com/seedom_io">
+                <span class="icon">
+                  <i class="fa fa-lg fa-twitter"></i>
+                </span>
+              </a>
+
+              <a class="navbar-item">
+                <span class="icon">
+                  <i class="fa fa-lg fa-slack"></i>
+                </span>
+              </a>
+
             </div>
           </div>
         </div>
@@ -54,30 +83,42 @@
     <div class="hero-body">
       <div class="container has-text-centered">
         <div class="column is-6 is-offset-3">
-          <h1 class="title">
-            Seedom
-          </h1>
           <h2 class="subtitle">
-            Seedom is ridiculous.
+            <strong>Seeding the future...</strong>
           </h2>
           <div class="box">
-
-            <div class="field is-grouped">
-              <p class="control is-expanded">
-                <input class="input" type="text" placeholder="Enter your email">
-              </p>
-              <p class="control">
-                <a class="button is-info">
-                  Notify Me
-                </a>
-              </p>
-            </div>
+            <form action="https://seedom.us17.list-manage.com/subscribe/post?u=d218737a0dfcda96f8cf3adf1&amp;id=92467afeb2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+              <div class="field is-grouped" id="mc_embed_signup_scroll">
+                <p class="control is-expanded">
+                  <input type="email" value="" name="EMAIL" class="input" id="mce-EMAIL" placeholder="email@example.com" required>
+                  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                  <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                    <input type="text" name="b_d218737a0dfcda96f8cf3adf1_92467afeb2" tabindex="-1" value="">
+                  </div>
+                </p>
+                <p class="control">
+                  <input type="submit" value="Stay in touch" name="subscribe" id="mc-embedded-subscribe" class="button is-success">
+                </p>
+              </div>
+            </form>
           </div>
         </div>
       </div>
     </div>
-
   </section>
-  <script async type="text/javascript" src="../js/bulma.js"></script>
+
+  <section style="margin-top: 30px">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-8 is-offset-2 has-text-centered">
+          <blockquote class="is-large">
+            Seedom is a cryptocurrency benefiting charities at a <strong>global</strong> level -- the true
+            spirit of blockchain technology.
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script async type="text/javascript" src="./site.js"></script>
 </body>
 </html>
