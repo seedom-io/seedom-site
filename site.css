@@ -25,3 +25,9 @@ html,body {
 blockquote.is-large {
   font-size: 2.5rem;
 }
+
+@media screen and (max-width: 1023px) {
+  .hero.is-info .navbar-menu {
+    background: transparent;
+  }
+}
