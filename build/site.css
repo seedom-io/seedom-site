@@ -53,7 +53,7 @@ section.advantages {
 }
 
 .title {
-  color: white;
+  color: white !important;
   font-weight: 500;
   margin-bottom: 3.5rem !important;
 }
@@ -63,6 +63,28 @@ section.advantages {
   text-transform: uppercase;
 }
 
+section.process {
+  padding: 70px 0;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.7)
+  ), url('./images/space-forest.jpeg') no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+  border-bottom: 1px solid rgba(255,255,255,0.14);
+}
+
 .footer {
   background-color: #1C1D21;
+  padding: 3rem;
+}
+
+a {
+  color: #31CF65;
+}
+
+a:hover {
+  color: #fff;
 }
