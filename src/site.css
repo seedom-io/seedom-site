@@ -81,6 +81,10 @@ background-size: cover;
   padding: 3rem;
 }
 
+.hero.is-info a.navbar-item:hover {
+  background-color: #31CF65;
+}
+
 a {
   color: #31CF65;
 }
