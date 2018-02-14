@@ -1,3 +1,4 @@
 # seedom-site
 
-Static marketing website
+`brew install hugo`
+`hugo server -w`
