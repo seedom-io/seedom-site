@@ -1,0 +1,20 @@
+<section class='team'>
+  <div class="container has-text-centered">
+    <h1 class='title'>Meet the team</h1>
+
+    <div class="columns">
+      <div class="column">
+        {{ partial "member.html" (dict "imgSrc" "./images/alex.jpg" "name" "Alex Groleau" "title" "Founder, CTO" "linkedinUrl" "https://www.linkedin.com/in/awgneo/" "githubUrl" "https://github.com/awgneo") }}
+      </div>
+      <div class="column">
+        {{ partial "member.html" (dict "imgSrc" "./images/jesse.jpg" "name" "Jesse Kuiper" "title" "Founder, President" "linkedinUrl" "https://www.linkedin.com/in/jesse-kuiper-771a2111/") }}
+      </div>
+      <div class="column">
+        {{ partial "member.html" (dict "imgSrc" "./images/kyle.jpg" "name" "Kyle Graden" "title" "Strategic Advisor" "linkedinUrl" "https://www.linkedin.com/in/kylegraden/" "twitterUrl" "https://twitter.com/KyleGraden") }}
+      </div>
+      <div class="column">
+        {{ partial "member.html" (dict "imgSrc" "./images/eric.jpg" "name" "Eric Thomas" "title" "Software Developer" "linkedinUrl" "https://www.linkedin.com/in/eric-l-m-thomas/" "githubUrl" "https://github.com/et") }}
+      </div>
+    </div>
+  </div>
+</section>

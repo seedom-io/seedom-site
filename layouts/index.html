@@ -104,9 +104,6 @@
       <div class="container has-text-centered">
         <div class="column is-6 is-offset-3">
           <img src="./images/seedom-white@4x.png" />
-          <h2 class="subtitle">
-            <strong>Seeding the future of philanthropy</strong>
-          </h2>
           <div class="box">
             <form action="https://seedom.us17.list-manage.com/subscribe/post?u=d218737a0dfcda96f8cf3adf1&amp;id=92467afeb2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
               <div class="field is-grouped" id="mc_embed_signup_scroll">
@@ -127,48 +124,71 @@
             </form>
           </div>
         </div>
-        <div>
 
+        <div class="column is-6 is-offset-3">
+          <div class="card">
+            <div class="card-content">
+              <p class="title">
+                Come play with us!
+              </p>
+              <p class="subtitle">
+                <a target="_blank" href="https://docs.google.com/document/d/1tB0k062E2ukpydDbXJW91kmmifQeHmpdreBG1nVDFJk/edit?usp=sharing">Instructions</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div>
           <div class="pricing-table">
-            <div class="pricing-plan is-warning">
-              <div class="plan-header">Mainnet</div>
-              <div class="plan-price"><span class="plan-price-amount"><span class="plan-price-currency">Ξ</span>0.1</span>/entry</div>
+
+            <div class="pricing-plan is-success">
+              <div class="plan-header">Ropsten</div>
+              <div class="plan-price"><span class="plan-price-amount"><span class="plan-price-currency"></span>3</span> &nbsp;rounds</div>
               <div class="plan-items">
-                <div class="plan-item">Uses real money</div>
-                <div class="plan-item">3 day timeframe</div>
-                <div class="plan-item">-</div>
-                <div class="plan-item">-</div>
+                <div class="plan-item">Uses fake ether</div>
+                <div class="plan-item">24 hour timeframe</div>
+                <div class="plan-item">Safe</div>
               </div>
               <div class="plan-footer">
-                <button class="button is-fullwidth">Participate</button>
+                <a href='https://www.seedom.io/ropsten/'>
+                  <button class="button is-fullwidth">
+                    <strong>Test It</strong>
+                  </button>
+                </a>
               </div>
             </div>
 
-            <div class="pricing-plan is-success is-active">
-              <div class="plan-header">Ropsten</div>
-              <div class="plan-price"><span class="plan-price-amount"><span class="plan-price-currency">Ξ</span>0.2</span>/entry</div>
+            <div class="pricing-plan is-danger">
+              <div class="plan-header">Mainnet</div>
+              <div class="plan-price"><span class="plan-price-amount"><span class="plan-price-currency"></span>1</span> &nbsp;round</div>
               <div class="plan-items">
-                <div class="plan-item">Uses fake money</div>
-                <div class="plan-item">2 hour timeframe</div>
-                <div class="plan-item">Safe</div>
-                <div class="plan-item">-</div>
+                <div class="plan-item">Uses real ether</div>
+                <div class="plan-item">3 day timeframe</div>
+                <div class="plan-item">Opportunity to win big</div>
               </div>
               <div class="plan-footer">
-                <button class="button is-fullwidth">Participate</button>
+                <a href='https://www.seedom.io/ropsten/'>
+                  <button class="button is-fullwidth">
+                    <strong>Win It</strong>
+                  </button>
+                </a>
               </div>
             </div>
 
             <div class="pricing-plan is-primary">
               <div class="plan-header">Localhost</div>
-              <div class="plan-price"><span class="plan-price-amount"><span class="plan-price-currency">Ξ</span>?</span>/entry</div>
+              <div class="plan-price"><span class="plan-price-amount"><span class="plan-price-currency"></span>∞</span> &nbsp;rounds</div>
               <div class="plan-items">
                 <div class="plan-item">Run your own version</div>
                 <div class="plan-item">As long you want</div>
-                <div class="plan-item">-</div>
-                <div class="plan-item">-</div>
+                <div class="plan-item">Difficult to set up</div>
               </div>
               <div class="plan-footer">
-                <button class="button is-fullwidth">Download</button>
+                <a href='https://github.com/seedom-io'>
+                  <button class="button is-fullwidth">
+                    <strong>Build It</strong>
+                  </button>
+                </a>
               </div>
             </div>
           </div>
@@ -177,6 +197,9 @@
       </div>
     </div>
   </section>
+
+  {{ partial "team.html" . }}
+
   <section class='advantages'>
     <div class="container has-text-centered">
       <h1 class='title'>The most powerful platform that benefits the world’s leading charities and their supporters.</h1>
