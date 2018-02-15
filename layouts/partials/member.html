@@ -1,0 +1,36 @@
+<div class="level-item has-text-centered">
+  <article class="media">
+    <div class="media-left">
+      <figure class="image is-128x128">
+        <img src="{{ .imgSrc }}" alt="Image">
+      </figure>
+    </div>
+
+    <div class="media-content">
+      <div class="content">
+        <p>
+          <strong>{{ .name }}</strong>
+          <br> {{ .title }}
+        </p>
+      </div>
+      <nav class="level is-mobile">
+        <div class="level-left">
+          <a href="{{ .linkedinUrl }}" class="level-item">
+            <span class="icon is-small"><i class="fab fa-linkedin"></i></span>
+          </a>
+          {{ if .githubUrl }}
+            <a href="{{ .githubUrl }}" class="level-item">
+              <span class="icon is-small"><i class="fab fa-github"></i></span>
+            </a>
+          {{ end }}
+
+          {{ if .twitterUrl }}
+            <a href="{{ .twitterUrl }}" class="level-item">
+              <span class="icon is-small"><i class="fab fa-twitter"></i></span>
+            </a>
+          {{ end }}
+        </div>
+      </nav>
+    </div>
+  </article>
+</div>
